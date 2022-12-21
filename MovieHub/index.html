@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MovieHubb</title>
+</head>
+<body>
+    <main>
+
+    <header>
+        <h1>MovieHubb</h1>
+    </header>
+    <br>
+    <br>
+    <form id="userInput" action="">
+        <label for="title">Title: </label>
+        <input type="text" id="title">
+        <label for="genre">Genre: </label>
+        <input type="text" id="genre">
+        <label for="date">Date: </label>
+        <input type="date" id="date">
+        <button id="button" >Add to favourites</button>
+    </form>
+    <h4>SAVED MOVIES:</h4>
+    <ul id="ulList"></ul>
+    <section class="userMovies"></section>
+     <br>
+<button id="reload">Show Favourites</button>
+    </main>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(70, 66, 66);
+    color: white;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+#reload:hover{
+    background-color: rgb(189, 188, 188);
+    font-size: 1rem;
+}
